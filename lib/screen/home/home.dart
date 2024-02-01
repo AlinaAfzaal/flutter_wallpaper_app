@@ -165,38 +165,7 @@ class MyHomePage extends StatelessWidget {
                 );
               }),
         );
-
-
-        // homeController.data.isNotEmpty?MasonryGridView.count(
-        //     crossAxisCount: 2,
-        //     itemCount:homeController.data.length,
-        //     shrinkWrap: true,
-        //     physics: const NeverScrollableScrollPhysics(),
-        //     itemBuilder: (context,index){
-        //       double ht=index%2==0?250:200;
-        //       return Padding(
-        //         padding: const EdgeInsets.all(10),
-        //         child: GestureDetector(
-        //           onTap: (){Get.to('wallpaper', arguments:homeController.data[index]['urls']['regular'] ); },
-        //           child: ClipRRect(
-        //             borderRadius: BorderRadius.circular(12),
-        //             child: Image.network(homeController.data[index]['urls']['regular'],
-        //               height: ht,
-        //               fit: BoxFit.cover,
-        //             ),
-        //           ),
-        //         ),
-        //       );
-        //     })
-        //     :Container(
-        //     height: 500,
-        //     child: Center(child: SpinKitCircle(color: Colors.grey),));
     });
-
-
-
-
-  // });
   }
 
 }
